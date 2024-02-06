@@ -1,0 +1,21 @@
+.message-container {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.barre {
+  border-bottom: solid 1px rgb(240,240,240);
+}
+.barre h2 {
+  margin-bottom: 0.5em;
+}
+.whole-chat {
+  padding: 16px 0;
+  overflow-y: scroll;
+  flex-grow: 1;
+}
+
+form {
+  position: sticky;
+  bottom: 0;
+}

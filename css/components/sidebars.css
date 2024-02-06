@@ -1,0 +1,75 @@
+/*server sidebar*/
+.server-container {
+  background-color: #261C25;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.server {
+  width: 45px;
+  height: 40px;
+  opacity: .6;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.server a {
+  text-decoration: none;
+  color: white;
+}
+.server.active {
+  background-color: #514951;
+  opacity: 1;
+}
+.server:hover {
+  color: white;
+  opacity: 1;
+}
+
+/*channel sidebar*/
+.channel-container {
+  background-color: #4B3949;
+  color: white;
+  padding: 16px;
+}
+.channel-container h2 {
+  margin-bottom: 6px;
+}
+.person input {
+  opacity: .6;
+}
+.category-title {
+  display: grid;
+  grid-template-columns: 90% 10%;
+  text-decoration: none;
+  align-items: center;
+}
+.category-title p:last-child {
+  text-align: end;
+  font-size: 24px;
+}
+.category-title * {
+  margin: 0;
+  color: white;
+  font-weight: bold;
+}
+
+.category ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+.channel ul li {
+  opacity: .6;
+}
+.category ul li.active {
+  opacity: 1;
+}

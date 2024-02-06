@@ -1,0 +1,6 @@
+/* TODO: slack layout */
+.main-container {
+  display: grid;
+  grid-template-columns: 80px 200px auto;
+  height: 100vh;
+}
